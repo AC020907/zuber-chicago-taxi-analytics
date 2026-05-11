@@ -1,22 +1,16 @@
-
----
-
-# README — Chicago Taxi Analysis
-
-```md
 # Análisis de Viajes de Taxi en Chicago
 
 ## Descripción del proyecto
 
-Este proyecto analiza datos de compañías de taxi y viajes realizados en Chicago con el objetivo de identificar patrones de demanda, zonas más populares y factores externos que afectan la duración de los viajes.
+Este proyecto analiza datos de compañías de taxi y viajes realizados en Chicago para identificar patrones de demanda, zonas más populares y factores externos que afectan la duración de los trayectos.
 
-El análisis combina exploración de datos, consultas SQL y pruebas estadísticas para obtener insights relevantes sobre movilidad urbana y comportamiento de usuarios.
+El análisis combina exploración de datos, consultas SQL y pruebas estadísticas para obtener insights relacionados con movilidad urbana y comportamiento de usuarios.
 
 ## Funcionalidades del análisis
 
 - **Análisis exploratorio de datos**
   - Empresas con mayor cantidad de viajes
-  - Barrios con más destinos
+  - Barrios más populares
   - Distribución de viajes por compañía
 
 - **Consultas SQL**
@@ -24,7 +18,7 @@ El análisis combina exploración de datos, consultas SQL y pruebas estadística
   - JOINs entre tablas
   - Análisis temporal
 
-- **Pruebas estadísticas**
+- **Análisis estadístico**
   - Comparación de duración de viajes
   - Impacto del clima en los trayectos
   - Validación de hipótesis
@@ -33,48 +27,28 @@ El análisis combina exploración de datos, consultas SQL y pruebas estadística
   - Gráficos de barras
   - Histogramas
   - Diagramas comparativos
+  - Distribuciones de viajes
 
 ## Tecnologías utilizadas
 
-- Python 3
-- SQL
-- Pandas
-- Matplotlib
-- SciPy
-- Jupyter Notebook
+- [Python 3](https://www.python.org/)
+- [SQL](https://www.mysql.com/) – consultas y manipulación de datos
+- [Pandas](https://pandas.pydata.org/) – análisis de datos
+- [Matplotlib](https://matplotlib.org/) – visualización de datos
+- [SciPy](https://scipy.org/) – pruebas estadísticas
+- [Jupyter Notebook](https://jupyter.org/) – entorno de desarrollo
 
-## Estructura del proyecto
 
-```
+Clona el repositorio:
 
-.
-├── README.md
-├── chicago\_taxi\_analysis.ipynb
-├── company\_trips.csv
-├── neighborhoods.csv
-└── weather\_data.csv
+git clone <URL_DEL_REPOSITORIO>
+cd <NOMBRE_DEL_REPOSITORIO>
 
-```
-
-## Principales conclusiones
-
-- Algunas compañías dominan claramente el mercado de viajes.
-- Los barrios céntricos concentran la mayor demanda.
-- Las condiciones climáticas afectan significativamente la duración de los trayectos.
-- Las pruebas estadísticas confirmaron diferencias relevantes entre grupos analizados.
-
-## Cómo ejecutar el proyecto localmente
-
-1. Clona el repositorio:
+2. Crea y activa un entorno virtual:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_REPOSITORIO>
-
-Crea y activa un entorno virtual:
-
-python -m venv env
-source env/bin/activate   # macOS/Linux
-env\Scripts\activate      # Windows
+   python -m venv env
+   source env/bin/activate   # macOS/Linux
+   env\Scripts\activate      # Windows
 
 Instala las dependencias:
 
@@ -84,3 +58,8 @@ Ejecuta Jupyter Notebook:
 
 jupyter notebook
 Abre el archivo .ipynb
+Principales conclusiones
+Algunas compañías dominan claramente el mercado de viajes.
+Los barrios céntricos concentran la mayor demanda.
+Las condiciones climáticas afectan significativamente la duración de los trayectos.
+Las pruebas estadísticas confirmaron diferencias relevantes entre grupos analizados.
