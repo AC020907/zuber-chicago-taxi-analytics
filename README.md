@@ -57,9 +57,15 @@ pip install pandas numpy matplotlib scipy jupyter
 Ejecuta Jupyter Notebook:
 
 jupyter notebook
+
 Abre el archivo .ipynb
+
 Principales conclusiones
-Algunas compañías dominan claramente el mercado de viajes.
-Los barrios céntricos concentran la mayor demanda.
-Las condiciones climáticas afectan significativamente la duración de los trayectos.
-Las pruebas estadísticas confirmaron diferencias relevantes entre grupos analizados.
+
+- Algunas compañías dominan claramente el mercado de viajes.
+
+- Los barrios céntricos concentran la mayor demanda.
+  
+- Las condiciones climáticas afectan significativamente la duración de los trayectos.
+  
+- Las pruebas estadísticas confirmaron diferencias relevantes entre grupos analizados.
